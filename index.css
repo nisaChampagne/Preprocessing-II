@@ -170,6 +170,7 @@ h2 {
 h4 {
   font-size: 2.5rem;
   padding-bottom: 10px;
+  font-weight: bold;
 }
 p {
   line-height: 1.5;
@@ -187,6 +188,15 @@ img {
 }
 .destination {
   border: 2px solid blue;
+}
+.content-pick {
+  border: 2px solid red;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .content-pick {
+    flex-direction: column;
+  }
 }
 nav {
   font-size: 16px;
