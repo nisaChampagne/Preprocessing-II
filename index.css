@@ -274,7 +274,8 @@ nav {
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
-    width: 100%;
+    width: 80%;
+    justify-content: center;
   }
 }
 header {
