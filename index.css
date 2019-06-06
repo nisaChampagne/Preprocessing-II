@@ -236,7 +236,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 45%;
+    width: 100%;
   }
 }
 .home .content-section .img-content {
