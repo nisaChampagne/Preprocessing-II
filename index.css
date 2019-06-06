@@ -260,6 +260,9 @@ header nav {
     flex-direction: column;
   }
 }
+header h1 {
+  padding-left: 80px ;
+}
 header a {
   text-decoration: none;
   justify-content: space-between;
