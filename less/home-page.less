@@ -48,18 +48,18 @@
   }
 
   .content-pick {
-    padding-top: 30px;
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
-      @media @min500{
-        padding-top: 0;
-      }
 
     .destination {
       width: 30%;
       margin-bottom: 30px;
+        @media @min500{
+          width: 100%;
+        }
     }
+
   }
 }// home
 header{
@@ -71,6 +71,7 @@ header{
       display: flex;
       @media(max-width: 500px){
         flex-direction: row;
+        align-items: center;
       }
     }
       a{
@@ -83,7 +84,8 @@ header{
 }
 
 .fun-bus{
-  padding-top: 20px;
+  padding-top: 30px;
+
 }
 
 .fun-img{
@@ -94,6 +96,5 @@ header{
 .btn{
   .btn();
 }
-
 
 
