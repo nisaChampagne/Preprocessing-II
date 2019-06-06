@@ -191,10 +191,10 @@ img {
 }
 .content-pick {
   border: 2px solid red;
-  width: 100%;
 }
 @media (max-width: 500px) {
   .content-pick {
+    padding: 0 auto;
     flex-direction: column;
     align-items: center;
   }
@@ -256,6 +256,11 @@ nav {
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .home .content-pick {
+    padding-top: 0;
+  }
 }
 .home .content-pick .destination {
   width: 30%;
