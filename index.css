@@ -184,6 +184,9 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.destination {
+  border: 2px solid blue;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -246,9 +249,6 @@ header {
   flex-direction: row-reverse;
   justify-content: space-evenly;
   align-content: center;
-  padding-top: 50px;
-  padding-bottom: 30px;
-  border-bottom: 1px dashed black;
 }
 header nav {
   padding-top: 0 auto;
@@ -260,18 +260,19 @@ header nav {
     flex-direction: column;
   }
 }
-header h1 {
-  padding-left: 80px ;
-}
 header a {
   text-decoration: none;
   justify-content: space-between;
   color: black;
   padding: 10px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .fun-bus {
   padding-top: 20px;
+}
+.fun-img {
+  border-top: 2px dashed black;
+  margin-top: 0 auto;
 }
 .btn {
   border: 2px solid teal;
