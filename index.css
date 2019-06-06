@@ -232,7 +232,7 @@ nav {
   .home .content-section {
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    width: 100%;
   }
 }
 .home .content-section .text-content {
@@ -244,6 +244,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 }
 .home .content-section .img-content {
@@ -258,6 +259,7 @@ nav {
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+  border: 2px solid green;
 }
 .home .inverse-content {
   padding-bottom: 30px;
