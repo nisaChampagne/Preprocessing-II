@@ -160,10 +160,12 @@ h5 {
 }
 h1 {
   font-size: 4rem;
+  font-weight: bold;
 }
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
+  font-weight: bold;
 }
 h4 {
   font-size: 2.5rem;
@@ -189,6 +191,7 @@ img {
 nav {
   font-size: 16px;
   font-weight: bold;
+  padding-top: 10px;
 }
 .footer {
   width: 100%;
