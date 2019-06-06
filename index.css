@@ -175,7 +175,6 @@ h2 {
 }
 @media (max-width: 500px) {
   h2 {
-    border: 2px solid blue;
     width: 100%;
   }
 }
@@ -307,8 +306,9 @@ nav {
 @media (max-width: 500px) {
   .home .content-pick .btn {
     border: 2px solid blue;
-    margin: 0 0 0 110px;
+    margin: 0 auto;
     padding: 0 auto;
+    width: 100%;
   }
 }
 header {
