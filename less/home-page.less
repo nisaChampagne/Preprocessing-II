@@ -11,6 +11,12 @@
     .text-content {
       width: 48%;
       padding-right: 1%;
+        @media @min500{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 45%;
+        }
     }
 
     .img-content {
@@ -89,13 +95,21 @@ header{
 
 }
 
+.border{
+  width: 100%;
+  border: 1px dashed black;
+  flex-grow: border;
+}
+
 .fun-img{
-  border-top: 2px dashed black;
   margin-top: 0 auto;
 }
 
 .btn{
   .btn();
+    @media @min500{
+      
+    }
 }
 
 
