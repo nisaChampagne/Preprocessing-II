@@ -226,6 +226,14 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  border: 2px solid blue;
+}
+@media (max-width: 500px) {
+  .home .content-section {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
 }
 .home .content-section .text-content {
   width: 48%;
@@ -236,12 +244,17 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
   }
 }
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
+  border: 2px solid red;
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content {
+    width: 100%;
+  }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
